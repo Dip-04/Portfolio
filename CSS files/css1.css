@@ -1,0 +1,996 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+ 
+    background-color: #000000;
+ 
+   
+   
+
+
+
+
+}
+label{
+    display: block;
+    padding: 0px 14px;
+}
+div.namebox{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 22px 0px;
+}
+p.title1 {
+    font-size: 20px;
+    padding: 23px 4px;
+    text-decoration: underline;
+    background: lightblue;
+}
+input.name{
+     width: 301px;
+    height: 44px;
+    margin: 10px 10px;
+    font-size: 20px;
+
+
+   
+}
+input.subject{
+     width: 627px; 
+    height: 44px;
+    margin: 10px 10px;
+    font-size: 20px;
+}
+textarea.message{
+    width: 627px; 
+    height: 232px;
+    margin: 10px 10px;
+    font-size: 20px;
+}
+input.email{
+     width: 301px; 
+    height: 44px;
+    margin: 10px 10px;
+    font-size: 20px;
+
+}
+input.button{
+    width: 154px;
+    height: 44px;
+    background-color: #1264cf;
+    color: white;
+    margin: -20px 248px;
+
+    font-size: 16px;
+    border-radius: 8px;
+}
+input.button:hover{
+    background-color: #518bd7;
+}
+
+
+p.title{
+    font-size: 20px;
+    padding: 23px 4px;
+
+}
+p.lang{
+    font-size: 20px;
+    padding: 23px 4px;
+
+}
+.section6{
+    background-color: white;
+    height: 100vh;
+}
+div.pho4:hover{
+    opacity: 1;
+    background-color: #ffffff5e;
+    display: flex;
+    justify-content: center;
+    padding-top: 180px;
+    height: 22px;
+
+
+}
+.section4{
+   
+
+}
+.section5{
+    padding: 56px 27px;
+
+}
+div.outcontact{
+    display: flex;
+    flex-wrap:wrap ;
+    justify-content: space-evenly;
+}
+div.imgoutloc{
+   
+    width: 471px;
+    height: 608px;
+    margin-left: 20px;
+    margin-top: 22px;
+    box-shadow: 0 0 24px 0 rgb(0 0 0 / 20%);
+}
+div.conout{
+   
+   
+    margin-left: 20px;
+    margin-top: 22px;
+    box-shadow: 0 0 24px 0 rgb(0 0 0 / 20%);
+}
+iframe{
+    width: 424px;
+    height: 290px;
+    margin-left: 25px;
+
+}
+div.loc1{
+display: flex;
+flex-direction: column;
+}
+div.locin1{
+    display: flex;
+    padding: 10px 15px;
+
+
+}
+div.bloodout1{
+    width: 650px;
+    height: 455px; 
+    margin-left: 20px;
+    margin-top: 22px;
+    box-shadow: 0 0 24px 0 rgb(0 0 0 / 20%);
+}
+p.infoblood{
+    font-size: 18px;
+    padding: 8px 38px;
+}
+div.bloodout{
+     width: 471px;
+    height: 455px;
+    display: flex;
+    margin-left: 20px;
+    margin-top: 22px;
+    box-shadow: 0 0 24px 0 rgb(0 0 0 / 20%);
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+img.bloodimg{
+    padding: 10px 10px;
+}
+img.locin1{
+
+}
+p.h2loc{
+    padding: 11px 3px;
+    padding-top: 24px;
+
+}
+h2.h2loc{
+    padding: 19px 10px;
+
+}
+
+header.header {
+
+
+    width: 300px;
+
+    flex-direction: column;
+    position: fixed;
+    cursor: pointer;
+    background-color: #040b14;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-x: left;
+    height: 100vh;
+
+
+}
+
+.nheader {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav.menu1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.profile {
+    display: flex;
+
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+
+h1.name {
+
+
+    margin: 0px;
+
+
+}
+
+a.name {
+
+    color: white;
+    padding: 0px 32px;
+    margin: 0px;
+    text-decoration: none;
+
+}
+
+div.photo {
+
+    padding: 12px 71px;
+}
+
+div.icon {
+
+    padding: 14px 31px;
+
+}
+
+ul.menu {
+
+    padding: 20px 44px;
+
+}
+
+.menu {
+    list-style: none;
+
+
+}
+
+li.home {
+
+    padding: 8px 12px;
+
+
+}
+
+li.about {
+
+    padding: 8px 12px;
+
+}
+
+li.resume {
+
+    padding: 8px 12px;
+
+}
+
+li.project {
+
+    padding: 8px 12px;
+
+}
+
+li.contact {
+
+    padding: 8px 12px;
+
+}
+
+div.copy {
+
+
+
+    color: white;
+    font-size: 15px;
+    display: block;
+    margin: 0px 50px;
+
+
+
+
+}
+
+div.copy1 {
+
+
+
+    color: white;
+    font-size: 15px;
+    display: block;
+    margin: 0px 78px;
+    padding-top: 3px;
+
+
+
+}
+
+img.logo {
+    border: 8px solid grey;
+    border-radius: 100%;
+    width: 115px;
+
+}
+
+img.insta,
+img.twitter,
+img.fb,
+img.linked {
+    padding: 0px 0px;
+}
+
+img.insta:hover,
+img.twitter:hover,
+img.linked:hover,
+img.fb:hover {
+    width: 60px;
+    height: 60px;
+}
+
+.menu img {
+    width: 40px;
+    height: 40px;
+}
+
+a.home,
+a.about,
+a.contact,
+a.resume,
+a.project {
+    text-decoration: none;
+    font-size: 20px;
+    color: grey;
+    padding: 14px 22px
+}
+
+.menu a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+.menu li:hover {
+    color: black;
+    filter: invert(100%);
+}
+
+div.copyframe {
+    padding: 22px 14px;
+    cursor: none;
+}
+main{
+    margin-left: 300px;
+  
+
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #ffffff;
+}
+
+.section1{
+    
+   
+    background-image: url(/portfolio/Images/Diptish.JPG) ;
+   
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-x: center;
+    width: 100%;
+    height: 100vh;
+   
+    background-size: cover;
+}
+
+div.bodyname {
+    display: flex;
+    color: white;
+    padding: 0px 86px;
+    position: relative;
+    flex-direction: column;
+
+    font-size: 20px;
+    top: 180px;
+    left: 0px;
+  
+    flex-wrap: wrap;
+
+
+}
+
+div.im {
+    font-size: 1.3em;
+  
+    padding: 7px 2px;
+
+
+
+}
+
+div.cse {
+    color: white;
+    overflow: hidden;
+    font-size: 0.9em;
+    white-space: nowrap;
+    text-decoration: underline;
+    border-right: 2px solid white;
+    width: 0ch;
+    display: -webkit-inline-box;
+
+    animation: text 6s infinite;
+}
+
+@keyframes text {
+    0% {
+        width: 0ch;
+    }
+
+    50% {
+        width: 22.59ch;
+    }
+}
+div.photo:hover {
+    cursor: not-allowed;
+}
+
+
+div.aboutinbox {
+
+    display: flex;
+
+
+
+    flex-wrap: wrap;
+    flex-direction: column;
+
+}
+
+h1.Habout {
+
+    text-align: left;
+    
+    padding: 32px 57px;
+    text-decoration: underline #1264cf;
+    color: #173b6c;
+    font-size: 2.4em;
+    padding-bottom: 1%;
+}
+
+p.pabout {
+
+    /* width: 84%; */
+    text-align: left;
+    padding-left: 57px;
+    font-size: 1.3em;
+    color: #272829;
+}
+
+div.aboutinbox2 {
+
+    /* width: 97%; */
+    padding-top: 37px;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.aboutimg {
+
+    width: auto;
+    padding-left: 57px;
+    padding-top: 2%;
+
+
+
+
+}
+
+img.imgabout {
+
+    width: 283px;
+    height: 333px;
+
+
+
+
+}
+
+div.aboutoutbox {
+    /* border: 5px solid red; */
+    display: flex;
+    /* width: 96.7%; */
+
+    flex-wrap: wrap;
+    flex-direction: column;
+    position: relative;
+    left: 0%;
+}
+div.aboutinfo {
+
+    width: 61%;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+
+}
+
+h1.hcse {
+
+
+    text-align: left;
+
+
+    color: #173b6c;
+    font-size: 26px;
+    padding-top: 28px;
+    padding-left: 18px;
+}
+
+div.acse {
+
+    text-align: left;
+    font-size: 19px;
+    color: rgb(39, 40, 41);
+    /* width: 95%; */
+
+    padding-left: 21px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+
+
+}
+
+div.lcse {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+ul.info1 {
+
+    list-style: '➤  ';
+    font-size: 20px;
+
+    color: #173b6c;
+    line-height: 49px;
+    padding: 16px 43px;
+
+
+}
+
+.info1 em {
+    color: #000000;
+}
+
+.info2 em {
+    color: #000000;
+}
+.burger {
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15px;
+
+}
+
+.line {
+    width: 33px;
+    background-color: aliceblue;
+    height: 3px;
+    margin: 7px;
+}
+div.lskill {
+
+    padding-left: 57px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-bottom: 35px;
+   
+}
+div.hproject{
+    
+    width: 90%;
+}
+div.bproject{
+   
+    display: flex;
+    /* height: 47%;
+
+    width: 73%; */
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 40px;
+    margin-left: 85px;
+}
+.pro1{
+
+}
+.pro2{
+
+}
+img.imgpro1{
+    width: 302px;
+    height: 206px;    
+
+}
+img.imgpro2{
+    width: 302px;
+    height: 206px;    
+
+}
+img.imgpro3{
+    width: 302px;
+    height: 206px;   
+    padding-top: 40px;
+
+
+
+}
+img.imgpro4{
+    width: 302px;
+    height: 206px; 
+    padding-top: 40px;
+   
+
+}
+
+div.infoprojects{
+    /* width: 84%; */
+    text-align: left;
+    padding-left: 57px;
+    font-size: 1.3em;
+    color: #272829;
+    padding-top: 11px;
+}
+div.aboutinbox4 {
+
+    display: flex;
+    /* width: 96%; */
+    padding-top: 0px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: white;
+
+}
+
+div.resume {
+
+    padding-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    /* width: 100%; */
+    padding-left: 15px;
+}
+
+div.lrem {
+
+    padding-left: 50px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+div.edu{
+     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* width: 61%; */
+    padding-left: 11px;
+}
+div.lin {
+    border-left: 3px solid #173b6c;
+    /* position: relative; */
+    /* left: 4px; */
+    padding-left: 17px;
+    /* margin-top: -1px; */
+    height: 78%;
+    padding-top: -10px;
+}
+div.lin1 {
+    border-left: 3px solid #173b6c;
+    /* position: relative; */
+    /* left: 4px; */
+    padding-left: 17px;
+    /* margin-top: -1px; */
+    height: 100%;
+    padding-top: -10px;
+}
+ul.rcol1 {
+
+
+    list-style: 'O ';
+    font-size: 20px;
+    color: #173b6c;
+    line-height: 49px;
+    padding-top: 25px;
+
+
+}
+h3.education1{
+    font-size: 24px;
+    padding-left: 38px;
+    padding-top: 28px;
+}h3.education2{
+    font-size: 24px;
+    
+    padding-top: 28px;
+}
+ul.rcol2 {
+
+
+    list-style: 'O ';
+    font-size: 20px;
+    color: #173b6c;
+    line-height: 49px;
+
+}
+
+.summary {
+    color: #000000;
+    font-size: 26px;
+    padding-bottom: 12px;
+
+}
+
+p.sabout {
+    /* width: 84%; */
+    text-align: left;
+    padding-left: 0px;
+    padding-top: 0px;
+    line-height: 23px;
+    font-size: 0.9em;
+    color: #272829;
+}
+
+ul.rcol3 {
+
+    font-size: 17px;
+    color: #070707;
+    line-height: 35px;
+
+
+}
+
+.headlist1 {
+    list-style: circle;
+    font-size: 18px;
+    color: #173b6c;
+}
+
+ul.rcol3 li {}
+
+h3.headlist1 {
+    color: #000000;
+}
+
+li strong {
+    list-style: '🔵 ';
+}
+
+li.b-tech {
+    list-style: '🔵 ';
+    font-size: 21px;
+    padding-top: 31px;
+    color: #173b6c;
+
+}
+#cer{
+    padding-top: 27px;
+}
+div.education {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* width: 88%; */
+  
+    padding-left: 49px;
+    padding-bottom: 0px;
+
+
+}
+
+
+li.cer {
+    list-style: '🔵 ';
+    font-size: 21px;
+    padding-top: 31px;
+    color: #173b6c;
+}
+
+
+
+
+ul.ecol1,
+ul.ecol2 {
+    list-style: none;
+    padding: 17px 58px;
+
+}
+
+hr {
+    size: 10px;
+}
+
+.current {
+    background-color: #cae1fe;
+    /* width: 103px; */
+    padding-left: 10px;
+
+}
+
+.collage {
+    padding-top: 21px
+}
+
+.section2{
+    padding-bottom: 100px;
+}
+ul.info2 {
+
+    list-style: '➤ ';
+    font-size: 20px;
+    color: #173b6c;
+    line-height: 49px;
+    padding: 16px 0px;
+    padding-left: 58px;
+
+
+}
+
+
+div.aboutinbox3 {
+
+    display: flex;
+    /* width: 96%; */
+
+    padding-top: 10px;
+
+    flex-wrap: wrap;
+    flex-direction: column;
+
+}
+
+div.skill {
+
+    padding-top: 10px;
+
+
+}
+
+
+
+ul.col1 {
+
+
+    list-style: '➤ ';
+    font-size: 20px;
+    color: #173b6c;
+    line-height: 49px;
+
+
+
+}
+
+ul.col2 {
+
+
+    list-style: '➤ ';
+    font-size: 20px;
+    color: #173b6c;
+    line-height: 49px;
+
+
+
+
+}
+
+ul.col3 {
+
+
+    list-style: '➤ ';
+    font-size: 20px;
+    color: #173b6c;
+    line-height: 49px;
+
+}
+
+
+
+
+ul.col4 {
+
+
+    list-style: '➤ ';
+    font-size: 20px;
+    color: #173b6c;
+    line-height: 49px;
+
+
+
+
+
+}
+div.project1{
+    background: url("/portfolio/Images/pro1 (1).jpg");
+    width:302px;
+    height: 206px;
+    margin-bottom: 50px;
+}
+div.project2{
+    background: url("/portfolio/Images/pro 2.jpg");
+    width:302px;
+    height: 206px;
+}
+div.project3{
+    background: url("/portfolio/Images/pro3.jpg");
+    width:302px;
+    height: 206px;
+}
+div.project4{
+    background: url("/portfolio/Images/pro4.jpg");
+    width:302px;
+    height: 206px;
+}
+div.inproject1{
+    width:302px;
+    height: 206px;
+    opacity: 0;
+
+}
+div.icon1{
+    display: none;
+}
+a.project1{
+    background: #275ca6;
+    color: #ffffff;
+border-radius: 8px;
+    font-size: 28px;
+    padding: 0px 121px;
+    padding-bottom: 0px;
+    /* margin-top: 15px; */
+    position: relative;
+    top: 175px;
+    text-decoration: none;
+}
+a.project1:hover{
+    text-decoration: underline;
+    color: #ffffff;
+    font-size: 30px;
+    cursor: pointer;
+}
+.inproject1:hover{
+    background: rgba(255, 235, 235, 0.315);
+    opacity: 1;
+    cursor: pointer;
+
+
+}
+
+strong {
+    color: #040b14;
+}
+div.outcontact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* justify-content: space-evenly; */
+}
+div.outcontact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* justify-content: space-evenly; */
+    background: white;
+}

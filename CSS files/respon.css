@@ -1,0 +1,222 @@
+@media screen and (max-width:960px) {
+    /* .burger{
+        display: block;
+        position: absolute;
+        cursor: pointer;
+        right: 5%;
+        top: 15px;
+    } */
+   .nheader{
+    display: none;
+   }
+   div.icon1{
+    display: block;
+    background-color: #040b14;
+    padding: 0px 85px;
+
+}
+
+   .copyfram ,#cnav{
+    display: none;
+   }
+   div.outcontact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* justify-content: space-evenly; */
+    background: white;
+}
+   .copy{
+    display: none;
+   }
+   header.header{
+    width: 0px;
+   flex-direction: column;
+   position: fixed;
+   cursor: pointer;
+   background-color: #040b14;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position-x: left;
+   height: 0%;
+   }
+   main{
+    margin-left: 0px;
+   }
+   body{
+    background-color: white;
+   }
+   p.pabout {
+    /* width: 56%; */
+    text-align: left;
+    padding-left: 57px;
+    font-size: 1.3em;
+    color: #272829;
+}
+.section1{
+    display: flex;
+}
+div.bodyname {
+    display: flex;
+    color: white;
+     padding: 0px 0px; 
+    position: relative;
+    font-size: 20px;
+    top: 180px;
+    /* left: 0px; */
+    /* width: 362px; */
+    flex-wrap: wrap;
+}
+div.im {
+    font-size: -2.7em;
+    /* width: 46%; */
+    padding: 7px 2px;
+    font-size: 20px;
+}
+div.aboutinfo {
+    width: 61%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+div.aboutoutbox {
+   
+    display: flex;
+    /* width: 58.7%; */
+    flex-wrap: wrap;
+    flex-direction: column;
+    position: relative;
+    /* left: 0%; */
+}
+img.imgabout {
+    width: 228px;
+    height: 273px;
+}
+.section2 {
+    padding-bottom: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+div.lrem {
+    padding-left: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+}
+div.education {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* width: 88%; */
+    padding-left: 0px;
+    padding-bottom: 0px;
+}
+input.name{
+    width: auto;
+   height: 44px;
+   margin: 10px 10px;
+   font-size: 20px;
+
+
+  
+}
+input.subject{
+    width: auto; 
+   height: 44px;
+   margin: 10px 10px;
+   font-size: 20px;
+}
+textarea.message{
+   width: auto; 
+   height: 232px;
+   margin: 10px 10px;
+   font-size: 20px;
+}
+input.email{
+    width: auto; 
+   height: 44px;
+   margin: 10px 10px;
+   font-size: 20px;
+
+}
+
+}
+@media screen and (max-width:500px) {
+    header.header{
+        height: 6%;
+    }
+    img.bloodimg {
+        padding: 0px 0px;
+        width: 350px;
+    }
+    div.lskill {
+        padding-left: 57px;
+        display: block;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        padding-bottom: 35px;
+    }
+    div.bproject {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding-top: 40px;
+        margin-left: 0px;
+    }
+    .section5 {
+         padding: 0px 0px; 
+    }
+    div.imgoutloc {
+        display: flex;
+        flex-wrap: wrap;
+        width: auto;
+        flex-direction: column;
+        height: 608px;
+        margin-left: 0px;
+        margin-top: 22px;
+        box-shadow: 0 0 24px 0 rgb(0 0 0 / 20%);
+    }
+    div.conout {
+        margin-left: 0px;
+        margin-top: 22px;
+        box-shadow: 0 0 24px 0 rgb(0 0 0 / 20%);
+    }
+    iframe {
+        width: 329px;
+        height: 290px;
+        margin-left: 25px;
+    }
+    input.button {
+         width: auto; 
+        height: 44px;
+        background-color: #1264cf;
+        color: white;
+         margin: 0px 0px; 
+        font-size: 16px;
+        border-radius: 8px;
+    }
+    img.locin1 {
+        width: 40px;
+    }
+    div.bloodout1{
+        width: auto;
+       
+        margin-left: 0px;
+        margin-top: 22px;
+        box-shadow: 0 0 24px 0 rgb(0 0 0 / 20%);
+    }
+    div.bloodout{
+        width: auto;
+      
+       display: flex;
+       margin-left: 0px;
+       margin-top: 22px;
+       box-shadow: 0 0 24px 0 rgb(0 0 0 / 20%);
+       flex-wrap: wrap;
+       flex-direction: column;
+   }
+}
+@media screen and (max-width: 375px){
+header.header {
+    height: 9%;}
+}
